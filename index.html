@@ -1,77 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title> Khoa's Personal Site</title> <!--dùng để hiển thị tên trên thanh tab-->
+  <title>Tuấn Khoa</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="Avatars.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20"> <!-- cellspacing được dùng để tạo khoảng các giữa 2 cột với nhau-->
-    <tr>
-      <td> <img src="images/Khoa_tron.png" alt="Khoa profile picture" height="200" title="This is a picture of Khoa"></td>
-      <td>
-        <h1>Trịnh Đức Tuấn Khoa</h1>
-        <p><em>Sinh viên đại học <strong>FPT Cần Thơ</strong></em></p>
-        <p><strong><a href="https://www.facebook.com/Pha.17.4/" target="_blank">Tuấn Khoa</a></strong> quê sóc Trăng, sinh năm 2k2,  mình đang làm việc và học tập tại Cần Thơ.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Những cuốn sách yêu thích.</h3>
-  <ul>
-    <li>Mắt biếc</li>
-    <ul style="list-style-type:circle">
-      <li> <em><strong>Nguyễn Nhật Ánh</strong></em> </li>
-    </ul>
-    <li>Đi qua hoa cúc</li>
-    <ul style="list-style-type:circle">
-      <li> <em><strong>Nguyễn Nhật Ánh</strong></em> </li>
-    </ul>
-    <li>999 lá thư gửi cho chính bản thân</li>
-    <ul style="list-style-type:circle">
-      <li> <em><strong>Miêu Công Tử</strong></em> </li>
-    </ul>
-    <li>Lịch sử loài người</li>
-    <ul  style="list-style-type:circle">
-      <li><em><strong>Yuval Noah Harari </strong></em></li>
-    </ul>
-  </ul>
-  <hr>
-  <h3>Sở thích</h3>
-  <ol>
-    <li>xem phim</li>
-    <ul style="list-style-type:disc">
-      <li><a href="https://www.iq.com/play/one-piece-episode-1002-lgpvgyfhlo?lang=en_us">One piece</a></li>
-      <li><a href="https://motphimtv.com/phim/va-em-se-den-425.html">Be with you</a></li>
-    </ul>
-    <li>nghe nhạc</li>
-    <li>chơi game</li>
-    <ol type="a">
-      <li> LOL</li>
-      <li> CSGO</li>
-      <li>...</li>
-    </ol>
-  </ol>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Java</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>C</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
+  <div class="topnav">
+    <a class="topnav-hover" href="#about">About</a>
+    <a class="topnav-hover" href="#work">Work</a>
+    <a class="topnav-hover" href="#contact">Contact</a>
+  </div>
+  <div class="top">
+    <img class="top-cloud" src="images/cloud (1).png" alt="cloud-png">
+    <h1>I'm Khoa.</h1>
+    <h2 class="haha">a web developer.</h2>
+    <img class="bot-cloud" src="images/cloud (1).png" alt="cloud-png">
+    <img class="world" src="images/world.png" alt="world-png">
+  </div>
 
-  <hr>
-  <h3><a href="My_Contact.html">My Contact</a></h3>
+  <div class="middle-container">
+    <div id="about" class="profile">
+      <img class="Khoa-picture" src="images/Khoa_tron.png" alt="Khoa's picture">
+      <h2>Hello.</h2>
+      <p class="intro">I'm a web developer. I am a sophomore studying information technology at FPT University in Can Tho.</p>
+    </div>
+    <hr>
+    <div id="work" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-img" src="images/skill.png" alt="Skill-png">
+        <h3>Design & Development</h3>
+        <p>I began learning to code at the age of 17 because I wanted to create my own website. In my spare time, I usually work on improving my coding skills and other major skills.</p>
+      </div>
+      <div class="skill-row">
+        <img class="friends-img" src="images/friends.png" alt="friends-png">
+        <h3>Friendly</h3>
+        <p>In addition, I am a very friendly person who frequently empathizes with those around me.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me-img">
+      <h2>Get In Touch</h2>
+    </div>
+    <div id="contact" class="contact-me">
+      <h3 class="description-contact-me">If you have something to say about life or work.</h3>
+      <p class="description-contact-me">Contact me and let's share our lives. We can also chat about work during that time.</p>
+      <a class="btn" href="mailto:tuankhoa17402@gmail.com">CONTACT ME</a> <br>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/Pha.17.4/" target="_blank"> Facebook</a>
+    <a class="footer-link" href="https://www.instagram.com/tdtkhoa.174/" target="_blank"> Instagram</a>
+    <p class="end">© 2021 Tuấn Khoa @ FPT University.</p>
+  </div>
 </body>
 
 </html>
